@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:discard="@layout/activity_main2"
+    tools:keep="@layout/activity_main1"/>
+    <!--
+        动态保存或舍弃特定资源
+        keep:保存
+        discard:舍弃
+     -->

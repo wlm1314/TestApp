@@ -1,0 +1,2 @@
+include ':app', ':http', ':network', ':logincomponent', ':minecomponent', ':componentlib', ':router', ':annotations', ':annotations_compiler', ':butterknife', ':widget', ':uiapp'
+rootProject.name='My Application'

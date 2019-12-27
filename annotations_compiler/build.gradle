@@ -1,0 +1,13 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //依赖goole注解处理器依赖包
+    annotationProcessor 'com.google.auto.service:auto-service:1.0-rc6'
+    compileOnly 'com.google.auto.service:auto-service:1.0-rc6'
+    implementation project(path: ':annotations')
+
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
